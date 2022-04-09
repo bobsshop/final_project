@@ -59,8 +59,9 @@ h3 {
 }
 
 .bird-photos img {
-    max-height: 150px;
-    max-width: 200px;
+    margin-top: 25px;
+    max-height: 300px;
+    max-width: 400px;
 }
 
 .links-container {
