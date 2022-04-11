@@ -131,6 +131,14 @@ h3 {
     color: rgb(172, 172, 172);
 }
 
+.colorgreen {
+    color: green;
+}
+
+.colorred {
+    color: red;
+}
+
 @media (max-width: 600px) {
     body {
         display: block;
