@@ -22,4 +22,5 @@ function incorrectAnswer3() {
 
 function correctAnswer() {
     correct.style.backgroundColor = "green";
+    console.log("correct answer selected")
 }
