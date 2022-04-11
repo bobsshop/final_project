@@ -130,3 +130,21 @@ h3 {
     background-color: blue;
     color: rgb(172, 172, 172);
 }
+
+@media (max-width: 600px) {
+    body {
+        display: block;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    .bird-photos {
+        display: none;
+    }
+
+    .primary-container {
+        background: none;
+    }
+}
