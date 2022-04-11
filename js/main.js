@@ -2,7 +2,6 @@ const incorrect1 = document.getElementById("incorrect1")
 const incorrect2 = document.getElementById("incorrect2")
 const incorrect3 = document.getElementById("incorrect3")
 const correct = document.getElementById("correct-answer")
-const reset = document.getElementById("mc-container")
 
 incorrect1.addEventListener("click", incorrectAnswer1);
 incorrect2.addEventListener("click", incorrectAnswer2);
