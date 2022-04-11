@@ -11,11 +11,11 @@ header {
     background-color: lightcyan;
     color: #D2B48C;
     text-shadow: 4px 4px #3b3a3a;
-    border: 5px solid #3b3a3a;
+    border: 5px solid rgb(0, 0, 0)
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 40px;
     color: #D2B48C;
     text-shadow: 2px 2px #3b3a3a;
     margin-left: 25px;
@@ -35,6 +35,9 @@ h3 {
     color: slategrey;
 }
 
+figcaption {
+    color: rgb(232, 232, 232);
+}
 
 .primary-container {
     display: flex;
@@ -47,8 +50,8 @@ h3 {
 
 .dove-info {
     margin-left: 25px;
-    color: rgb(172, 172, 172);
-    font-size: 18px;
+    color: rgb(232, 232, 232);
+    font-size: 24px;
 }
 
 .bird-photos img {
@@ -84,20 +87,6 @@ h3 {
     opacity: 0.5;
 }
 
-.fill-in-questions-container {
-    margin: 0 40px;
-    padding: 30px;
-    border: 5px ridge slategrey;
-    border-radius: 50px 20px;
-    background-color: lightcyan;
-}
-
-.fill-in-questions-container label {
-    font-size: 18px;
-    text-shadow: 1px 1px #3b3a3a;
-    color: #D2B48C;
-}
-
 .multiple-choice-container {
     margin: 20px 40px;
     color: #D2B48C;
@@ -131,11 +120,11 @@ h3 {
     color: rgb(172, 172, 172);
 }
 
-.colorgreen {
+#colorgreen {
     color: green;
 }
 
-.colorred {
+#colorred {
     color: red;
 }
 
@@ -143,7 +132,6 @@ h3 {
     body {
         display: block;
     }
-
 
     iframe {
         display: none;
@@ -154,6 +142,6 @@ h3 {
     }
 
     .primary-container {
-        background: lightcyan;
+        background: slategray;
     }
 }
