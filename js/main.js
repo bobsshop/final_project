@@ -1,12 +1,13 @@
-const question = document.querySelector("#fill-in-questions-container");
-const answersList = document.getElementById("answers");
+const answer = document.querySelector("#answers");
+const answerCorrect = document.querySelector("#answers-correct");
 
-question.addEventListener("submit", answerEntry);
+document.addEventListener("click", incorrectAnswer);
+document.addEventListener("click", correctAnswer);
 
-function answerEntry(event) {
-    event.preventDefault();
+function incorrectAnswer() {
+    document.answer.style.backgroundColor = "red";
+}
 
-    answersList.innerHTML = "";
-
-
+function correctAnswer() {
+    document.answerCorrect.style.backgroundColor = "green"
 }

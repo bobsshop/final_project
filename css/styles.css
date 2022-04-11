@@ -36,13 +36,6 @@ h3 {
 }
 
 
-.video-link {
-    margin-left: 25px;
-    font-size: 20px;
-    text-decoration: none;
-    color: #D2B48C;
-}
-
 .primary-container {
     display: flex;
     flex-direction: row;
@@ -121,6 +114,15 @@ h3 {
 }
 
 .answers {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 350px;
+    block-size: fit-content;
+    background-color: blue;
+    color: rgb(172, 172, 172);
+}
+
+.answers-correct {
     border: 1px solid black;
     border-radius: 5px;
     width: 350px;
