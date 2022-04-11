@@ -2,9 +2,9 @@ document.addEventListener("click", incorrectAnswer);
 document.addEventListener("click", correctAnswer);
 
 function incorrectAnswer() {
-    document.querySelector("#answers").style.backgroundColor = "red";
+    document.getElementById("incorrect").style.backgroundColor = "red";
 }
 
 function correctAnswer() {
-    document.querySelector("#answers-correct").style.backgroundColor = "green";
+    document.getElementById("correct-answer").style.backgroundColor = "green";
 }
