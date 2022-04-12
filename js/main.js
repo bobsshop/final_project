@@ -24,3 +24,4 @@ function incorrectAnswer3() {
 function correctAnswer() {
     correct.style.backgroundColor = "green";
 }
+
