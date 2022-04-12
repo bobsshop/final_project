@@ -120,6 +120,25 @@ figcaption {
     color: rgb(172, 172, 172);
 }
 
+.fill-in-questions-container {
+    margin: 20px 40px;
+    color: #D2B48C;
+    padding: 30px;
+    border: 5px ridge slategrey;
+    border-radius: 50px 20px;
+    background-color: lightcyan;
+}
+
+.fill-in-questions-container label {
+    font-size: 18px;
+    text-shadow: 1px 1px #3b3a3a;
+    color: #D2B48C;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
 #colorgreen {
     color: green;
 }
