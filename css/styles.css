@@ -120,7 +120,7 @@ figcaption {
     color: rgb(172, 172, 172);
 }
 
-.fill-in-questions-container {
+.fill-in-question-container {
     margin: 20px 40px;
     color: #D2B48C;
     padding: 30px;
@@ -129,7 +129,7 @@ figcaption {
     background-color: lightcyan;
 }
 
-.fill-in-questions-container label {
+.fill-in-question-container p {
     font-size: 18px;
     text-shadow: 1px 1px #3b3a3a;
     color: #D2B48C;
