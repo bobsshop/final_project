@@ -1,8 +1,10 @@
-const incorrect1 = document.getElementById("incorrect1")
-const incorrect2 = document.getElementById("incorrect2")
-const incorrect3 = document.getElementById("incorrect3")
-const correct = document.getElementById("correct-answer")
-const form = document.getElementById("fill-in-question")
+const incorrect1 = document.getElementById("incorrect1");
+const incorrect2 = document.getElementById("incorrect2");
+const incorrect3 = document.getElementById("incorrect3");
+const correct = document.getElementById("correct-answer");
+const form = document.getElementById("fill-in-question");
+const answerInput = document.getElementById("fill-in-answer");
+const feedback = document.getElementById("feedback");
 
 incorrect1.addEventListener("click", incorrectAnswer1);
 incorrect2.addEventListener("click", incorrectAnswer2);
@@ -28,5 +30,13 @@ function correctAnswer() {
 
 function fillAnswer(event) {
     event.preventDefault();
-    console.log("working")
+
+    let answer = answerInput.value;
+
+    if (answer.value === ("brooding")) {
+        feedback.innerText = "That's correct! Brooding is the right answer."
+    }
+    else {
+        feedback.innerText = "I'm sorry but that is incorrect. Brooding is the correct answer."
+    }
 }

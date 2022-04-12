@@ -69,7 +69,7 @@ figcaption {
 }
 
 .links-container p {
-    font-size: 18px;
+    font-size: 14px;
     text-shadow: 1px 1px #3b3a3a;
     color: #D2B48C;
 }
@@ -97,7 +97,7 @@ figcaption {
 }
 
 .multiple-choice-container p {
-    font-size: 18px;
+    font-size: 16px;
     text-shadow: 1px 1px #3b3a3a;
     color: #D2B48C;
 }
@@ -130,7 +130,7 @@ figcaption {
 }
 
 .fill-in-question-container p {
-    font-size: 18px;
+    font-size: 16px;
     text-shadow: 1px 1px #3b3a3a;
     color: #D2B48C;
 }
