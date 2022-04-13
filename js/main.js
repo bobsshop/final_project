@@ -33,7 +33,9 @@ function fillAnswer(event) {
 
     let answer = answerInput.value;
 
-    if (answer.includes("brooding")) {
+    let answerCase = answer.toLowerCase()
+
+    if (answerCase.includes("brooding")) {
         feedback.innerText = "That's correct! Brooding is the right answer."
     }
     else {
