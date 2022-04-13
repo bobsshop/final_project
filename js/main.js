@@ -33,7 +33,7 @@ function fillAnswer(event) {
 
     let answer = answerInput.value;
 
-    if (answer.value == ("brooding")) {
+    if (answer.includes("brooding")) {
         feedback.innerText = "That's correct! Brooding is the right answer."
     }
     else {
