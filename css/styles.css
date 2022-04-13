@@ -154,13 +154,14 @@ figcaption {
         display: block;
     }
 
+
     iframe {
         display: none;
     }
 
     h2 {
-        display: block;
-        margin: auto;
+        display: flex;
+        justify-content: center;
     }
 
     .bird-photos {
