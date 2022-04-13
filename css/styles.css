@@ -147,6 +147,11 @@ figcaption {
     color: red;
 }
 
+#feedback {
+    font-size: 14px;
+    text-shadow: 1px 1px #3b3a3a;
+}
+
 @media (max-width: 600px) {
     body {
         display: block;
