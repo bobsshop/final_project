@@ -159,7 +159,8 @@ figcaption {
     }
 
     h2 {
-        align-items: center;
+        display: block;
+        margin: auto;
     }
 
     .bird-photos {
