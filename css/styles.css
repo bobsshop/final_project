@@ -113,7 +113,7 @@ figcaption {
 .answers-correct {
     border: 1px solid black;
     border-radius: 5px;
-    width: 350px;
+    width: fit-content;
     block-size: fit-content;
     background-color: blue;
     color: rgb(172, 172, 172);
