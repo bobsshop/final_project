@@ -152,17 +152,38 @@ figcaption {
 @media (max-width: 600px) {
     body {
         display: block;
+        margin: auto;
     }
 
+    header {
+        font-size: xx-large;
+        display: flex;
+        justify-content: center;
+        text-shadow: 1px 1px #3b3a3a;
+    }
 
     iframe {
         display: none;
     }
 
+    h1 {
+        font-size: xx-large;
+    }
+
     h2 {
+        font-size: xx-large;
         display: flex;
         justify-content: center;
+        text-shadow: 1px 1px #3b3a3a;
     }
+
+    h3 {
+        font-size: xx-large;
+        display: flex;
+        justify-content: center;
+        text-shadow: 1px 1px #3b3a3a;
+    }
+
 
     .bird-photos {
         display: none;
