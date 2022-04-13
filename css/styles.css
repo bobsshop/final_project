@@ -158,6 +158,10 @@ figcaption {
         display: none;
     }
 
+    h2 {
+        align-items: center;
+    }
+
     .bird-photos {
         display: none;
     }
