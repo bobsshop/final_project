@@ -68,7 +68,7 @@ figcaption {
     padding: 30px;
     border: 5px ridge slategrey;
     border-radius: 50px 20px;
-    background-image: linear-gradient(navy, lightcyan);
+    background-color: lightcyan;
 }
 
 .links-container p {
@@ -94,7 +94,7 @@ figcaption {
     padding: 30px;
     border: 5px ridge slategrey;
     border-radius: 50px 20px;
-    background-image: linear-gradient(navy, lightcyan);
+    background-color: lightcyan;
 }
 
 .multiple-choice-container p {
@@ -125,7 +125,7 @@ figcaption {
     padding: 30px;
     border: 5px ridge slategrey;
     border-radius: 50px 20px;
-    background-image: linear-gradient(navy, lightcyan);
+    background-color: lightcyan;
 }
 
 .fill-in-question-container p {
