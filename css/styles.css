@@ -39,7 +39,7 @@ h3 {
 
 figcaption {
     color: rgb(232, 232, 232);
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .primary-container {
@@ -54,11 +54,11 @@ figcaption {
 .dove-info {
     margin-left: 25px;
     color: rgb(232, 232, 232);
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .bird-photos img {
-    margin-top: 25px;
+    margin-top: 0px;
     max-height: 300px;
     max-width: 400px;
 }
