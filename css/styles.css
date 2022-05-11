@@ -1,7 +1,6 @@
 body {
     margin-top: 0 !important;
     padding: 0 !important;
-    margin-bottom: 12px;
     color: #D2B48C;
     font-family: 'Koulen', arial;
 }
@@ -38,8 +37,10 @@ h3 {
 }
 
 figcaption {
+    font-family: 'Times New Roman', Times, serif;
     color: rgb(232, 232, 232);
     text-align: center;
+    text-shadow: 1px 1px black;
 }
 
 .primary-container {
@@ -54,11 +55,10 @@ figcaption {
 .dove-info {
     margin-left: 25px;
     color: rgb(232, 232, 232);
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .bird-photos img {
-    margin-top: 0px;
     max-height: 300px;
     max-width: 400px;
 }
@@ -121,7 +121,7 @@ figcaption {
 }
 
 .fill-in-question-container {
-    margin: 20px 40px;
+    margin: 20px 40px 50px;
     padding: 30px;
     border: 5px ridge slategrey;
     border-radius: 50px 20px;
